@@ -1,0 +1,15 @@
+{
+	"name": "KnowledgeStream",
+	"version": "0.0.1",
+	"dependencies": {
+		"angular": "1.4.2",
+		"express": "*"
+	},
+	"devDependencies": {
+		"mocha": "*"
+	},
+	"scripts": {
+		"test": "mocha --reporter spec test",
+		"start": "node server/server.js"
+	}
+}
